@@ -1,0 +1,22 @@
+{
+  "class_names": [
+    "BENIGN",
+    "Botnet_C2",
+    "Brute_Force_SSH",
+    "DDoS_HTTP_Flood",
+    "DoS_SYN_Flood",
+    "Port_Scan"
+  ],
+  "params": {
+    "n_estimators": 150,
+    "learning_rate": 0.08,
+    "max_depth": 6,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "random_state": 42,
+    "eval_metric": "mlogloss",
+    "tree_method": "hist",
+    "n_jobs": -1
+  },
+  "is_trained": true
+}

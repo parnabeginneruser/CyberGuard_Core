@@ -1,0 +1,15 @@
+{
+  "input_dim": 28,
+  "latent_dim": 8,
+  "hidden_layers": [
+    64,
+    32,
+    16
+  ],
+  "dropout_rate": 0.1,
+  "learning_rate": 0.001,
+  "threshold": 0.4044920802116394,
+  "mean_benign_loss": 0.07389450073242188,
+  "std_benign_loss": 0.10720625519752502,
+  "is_trained": true
+}
